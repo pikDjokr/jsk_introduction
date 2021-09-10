@@ -1,17 +1,19 @@
-//Logical operators
-const a = 10
-const b = 50
-const c = 35
-console.log(c>a || c<b)
-// console.log('a == b : ', a == b)
-// console.log('a!=b : ',       a!=b)
-// console.log('Truth table for AND: ')
-// console.log('false && false : ', false && false)
-// console.log('true && true : ', true && true)
-// console.log('true && false : ', true && false)
-// console.log('false && true : ', false && true)
-// console.log('Truth table for OR: ')
-// console.log('false || false : ', false || false)
-// console.log('true || true : ', true || truee)
-// console.log('true || false : ', true || false)
-// console.log('false || true : ', false || true)
+//Conditional statements
+
+//Checks whether a number is even or odd
+const a = 0
+
+if(typeof a == 'number'){
+    if(a == 0){
+        console.log('Number is zero')
+    }
+    else if(a%2===0){
+        console.log('Number is even')
+    }
+    else{
+        console.log('Number is odd')
+    }
+}
+else{
+    console.error('Not a number.')
+}
