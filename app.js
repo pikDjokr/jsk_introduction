@@ -1,12 +1,16 @@
-//Assignment operators
-let names = 'Sakshi'
+//Comparison operators
 
-a = 19
-a += names
-
-console.log(a)
-console.log(typeof a)
-// a+= name
-// a/= 7
-// a*=
-// a**=
+const a = 21
+const b = 7
+const c = 21
+console.log('a>b : ',a>b)
+console.log('a<b : ' , a<b)
+console.log('a==b : ' , a==b)
+console.log('a==c : ', a==c)
+console.log('a>=c : ', a>=c)
+console.log('-------------------------------------------')
+const e = 11
+const d = '11'
+console.log('e==d : ',e==d)
+console.log('e===d : ',e===d)
+console.log('nistha' == 'Nistha')
