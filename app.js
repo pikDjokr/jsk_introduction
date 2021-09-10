@@ -1,14 +1,12 @@
-//Arithmatic operators
-const a = 2
-const b = 15
+//Assignment operators
+let names = 'Sakshi'
 
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a**b)
-console.log(b%a)
-console.log("-------------------------------")
-let c =5
-c **= 3
-console.log(c)
+a = 19
+a += names
+
+console.log(a)
+console.log(typeof a)
+// a+= name
+// a/= 7
+// a*=
+// a**=
