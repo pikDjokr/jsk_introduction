@@ -1,8 +1,10 @@
-console.log('Hey! This is my first piece of JS code. YAY!!!')
-console.log(456675668)
-console.log({name:'Yuthika'})
-console.log(true)
-console.log(false)
-console.log(false,2343,'String',{name:'Alfred'})
-console.warn('This is a warning')
-console.error('This is an error.')
+//Data types
+// Primitive or non primitive
+let age = 19
+let Name = 'asdf'
+let brand
+let arr = [1,2,3,4,5]
+arr.push("value")
+arr.unshift(21)
+console.log(arr)
+console.log(typeof arr)
