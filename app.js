@@ -1,4 +1,14 @@
-let Name ="vaishnavi"
-let age = 19
+// const rock =  document.querySelector('#rock')
+// const paper =  document.querySelector('#paper')
+// const scissor =  document.querySelector('#scissor')
 
-console.log(Name.toUpperCase()) 
+function logName(Name = 'John Doe', age = 18){  //Default values
+    // console.log('Nistha')
+    console.log(Name + " you are " + age)
+}
+
+logName()
+function add(a=0,b=0){
+    return a+b
+}
+console.log(add(12,99))
