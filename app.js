@@ -1,6 +1,6 @@
-const balls = document.getElementsByClassName('ball')
+//const balls = document.getElementsByClassName('ball')
 const body = document.querySelector('body')
-//const balls = document.querySelectorAll('.ball')
+const balls = document.querySelectorAll('.ball')
 
 
 const arr = [1,2,3,4,5]
@@ -13,9 +13,17 @@ const arr = [1,2,3,4,5]
 //arr.unshift(6) ---> adds at beginning of array
 //arr.shift() --> removes from beginning of array
 //arr.splice(2,2)
-arr.forEach((element,iteration) => {
-    console.log('iteration')
-    console.log(element,iteration)
+// arr.forEach((element,iteration) => {
+//     console.log('iteration')
+//     console.log(element,iteration)
+// })
+// balls.forEach((ball) => {
+//     console.log(ball)
+// })
+balls.forEach((ball,iteration) => {
+    const value = iteration*50
+    ball.style = `transform:translateY(${value}px)`
 })
-
-console.log(arr)
+let age = 19
+let Name = "Sakshi"
+console.log(`Hi ${Name} Your age is ${age}`)
