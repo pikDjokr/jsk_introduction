@@ -8,7 +8,18 @@ function logName(Name = 'John Doe', age = 18){  //Default values
 }
 
 logName()
-function add(a=0,b=0){
+
+
+// const add = function(a=0,b=0) {
+//     return a+b
+// }
+
+const add = (a=0,b=0) => {
     return a+b
 }
-console.log(add(12,99))
+
+// function add  (a=0,b=0) {
+//     return a+b
+// }
+
+console.log(add(12,23))
